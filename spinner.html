@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo/R.ico">
+    <link rel="stylesheet" href="bootstrap.bundle.js">
+    <link rel="stylesheet" href="css/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Spinner</title>
+    <style>
+        .container {
+            border: solid rebeccapurple;
+        }
+        .spinner-border .cus{
+            width: 5ren;
+            height: 5rem;         /*spinner size not working*/
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Spinner border,grow</h1>
+                <div class="spinner-border cus text-danger">
+                </div>
+                    <span class="">Loding.....</span>
+                <div class="spinner-grow text-primary">
+                    <div class="visually-hidden">Loding</div>
+                </div>
+                <div class="spinner-border text-info">
+                    <div class="visually-hidden">Loding</div>
+                </div>
+                <div class="spinner-border text-primary">
+                    <div class="visually-hidden">Loding</div>
+                </div>
+                <div class="col-6">
+                    <button class="btn btn-primary">
+                        <span class="spinner-border text-danger "></span>
+                        <span class="">Loding.......</span>
+                    </button>
+                    <button class="btn btn-primary">
+                        <span class="spinner-border spinner-border-sm text-danger "></span>
+                        <span class="">Loding.......</span>
+                    </button>
+                    <button class="btn btn-primary">
+                        <span class="spinner-grow text-light "></span>
+                        <span class="">Loding.......</span>
+                    </button>
+                    <button class="btn btn-primary">
+                        <span class="spinner-grow spinner-grow-sm text-danger "></span>
+                        <span class="">Loding.......</span>
+                    </button>
+                    <button class="btn btn-primary">
+                        <span class="spinner-grow text-danger "></span>
+                        <span class="visually-hidden">Loding.......</span>
+                    </button>
+                    <button class="btn btn-primary">
+                        <span class="spinner-border text-danger "></span>
+                        <span class="visually-hidden">Loding.......</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spinner-border text-info"></div>
+</body>
+
+</html>

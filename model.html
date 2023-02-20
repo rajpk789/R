@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo/R.ico">
+    <link rel="stylesheet" href="bootstrap.bundle.js">
+    <link rel="stylesheet" href="css/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Model</title>
+    <style>
+        .container {
+            border: solid rebeccapurple;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container my-3 py-3">
+        <div class="row">
+            <div class="col-8">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="false">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+                                necessitatibus?lorem333
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-2 py-2">
+        <div class="row">
+            <div class="col">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Launch static backdrop modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Open modal for @mdo</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@fat">Open modal for @fat</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Show a second modal and hide this one with the button below.o Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Magni magnam repellat quaerat facilis pariatur voluptatibus ipsam
+                        esse delectus! Architecto vel, quia quibusdam officiis veritatis neque numquam dignissimos
+                        laborum quod! Soluta labore aspernatur mollitia iure laudantium est, aperiam laboriosam debitis
+                        omnis provident amet minima atque saepe magnam temporibus illum eum aut sed nesciunt nemo totam
+                        praesentium? Dolorem voluptas beatae quod sequi maiores explicabo, odit velit optio eveniet
+                        voluptatibus nam aliquid et necessitatibus provident, cumque perferendis harum at quos, eligendi
+                        magnam excepturi nulla odio? Ipsa veniam ea natus, sed ducimus rem beatae accusantium odio
+                        minima est amet explicabo ab obcaecati ullam, aliquid dolor atque unde! Culpa deserunt impedit
+                        molestias libero adipisci veritatis tenetur nulla! Eaque obcaecati rem ducimus repudiandae, ea
+                        rerum repellendus veniam molestias animi reprehenderit quae, pariatur laboriosam velit illum
+                        unde blanditiis amet fugiat! Expedita quasi officiis, repellendus veritatis iusto assumenda! Ea,
+                        commodi quis id officiis explicabo enim aperiam quo ab asperiores laboriosam possimus deserunt
+                        veritatis quaerat. Eius sapiente dolores impedit expedita consequuntur reprehenderit a.
+                        Temporibus qui animi ad nemo modi nostrum quo omnis ipsa! Itaque ipsam, amet quam dolores
+                        incidunt cupiditate sunt velit non in? Commodi, repellat omnis. Ratione magnam a deleniti
+                        repudiandae praesentium adipisci? Facere excepturi officia error voluptatem!
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Open second modal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Hide this modal and show the first with the button below.lof Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Voluptate sequi soluta qui ad praesentium, alias neque nam atque
+                        ipsum, saepe eaque illo a tenetur, inventore porro sunt quo voluptates consequatur officiis vel.
+                        Voluptatibus ad tempore quam aliquam alias cupiditate, suscipit sit praesentium tenetur.
+                        Similique fugiat aspernatur dicta officiis, labore repellendus libero saepe consequatur
+                        repellat, quae corrupti ut ipsa reprehenderit veritatis. Amet, excepturi. Id, voluptatem fugit
+                        sit voluptatum neque aut minus atque explicabo eveniet labore ratione error veritatis debitis!
+                        Voluptas harum molestiae maxime, reiciendis id nesciunt! Sed, officiis? Tempore ad sunt
+                        provident, fugiat quidem minus odit placeat. Nemo quis distinctio aspernatur officiis quaerat
+                        exercitationem! Autem odit libero incidunt aliquid ea iusto! Rerum ipsum, quo similique autem
+                        alias natus esse labore eligendi. Minus, explicabo, autem eos earum expedita tenetur iure nobis
+                        maxime natus asperiores dolores aliquam nihil eveniet ipsum pariatur perspiciatis. Tempore alias
+                        fugiat soluta quos minus cum! Obcaecati architecto voluptatum autem recusandae magnam nulla enim
+                        error eveniet ut! Neque, aliquam ducimus placeat impedit nesciunt fugiat ea autem est
+                        reprehenderit, alias, distinctio eos optio voluptatibus deserunt porro exercitationem? Fugit
+                        dolore id reiciendis placeat, ut assumenda provident eveniet aliquam minus aperiam molestias
+                        distinctio aut porro repellendus sint in perferendis amet? Modi velit qui aperiam temporibus
+                        pariatur sunt vero aliquam porro odit! Nam delectus sit aperiam ratione mollitia laudantium quo,
+                        minus at similique facere iste distinctio iusto accusamus neque officiis suscipit, minima
+                        pariatur praesentium doloremque quas aliquam, fuga corporis maxime ipsum. Odio, perferendis?
+                        Aperiam perferendis mollitia commodi rem voluptatum modi, impedit veritatis nihil suscipit
+                        error? Ipsa sed nulla nobis ad quaerat commodi, iure aliquid ab fugiat accusantium blanditiis
+                        quod sit alias mollitia, reiciendis quae ut exercitationem quisquam excepturi fuga sequi?
+                        Quaerat necessitatibus alias quia enim voluptate ducimus est distinctio commodi molestias, ad
+                        eveniet delectus optio, praesentium quam consequatur consectetur, quo mollitia facilis? Maxime,
+                        possimus.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Back to first</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
